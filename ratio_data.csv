@@ -1,0 +1,12 @@
+Table,Heading,Location,Number
+csgomap,0,map_data_clean.csv,8
+csgommmaster,0,mm_master_demos_clean.csv,34
+csgommgrenades,0,mm_grenades_demos_clean.csv,34
+csgogrenades,1,grenades_demos.part1_clean.csv,24
+csgogrenades,1,grenades_demos.part2_clean.csv,24
+csgokills,1,kills_demos.part1_clean.csv,14
+csgokills,1,kills_demos.part2_clean.csv,14
+csgometa,0,esea_meta_demos.part1_clean.csv,11
+csgometa,0,esea_meta_demos.part2_clean.csv,11
+csgodmg,1,dmg_demos.part1_clean.csv,24
+csgodmg,1,dmg_demos.part2_clean.csv,24
