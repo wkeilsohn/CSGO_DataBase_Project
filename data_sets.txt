@@ -1,0 +1,27 @@
+csgokills -- round_number, t_alive -- WHERE round_number <= 30 -- 3
+csgokills -- round_number, ct_alive -- WHERE round_number <= 30 -- 3
+csgokills -- t_alive, ct_alive -- WHERE round_number <=30 -- 0
+csgokills -- att_side, is_bomb_planted -- WHERE round_number <= 30 -- 2
+csgokills -- round_number, wp_type -- WHERE round_number <= 30 -- 2
+csgodmg -- arm_dmg, hp_dmg -- -- 0
+csgodmg -- round_number, hp_dmg -- WHERE round_number <= 30 -- 3
+csgodmg -- round_number, is_bomb_planted -- WHERE round_number <=30 -- 3
+csgodmg -- bomb_site = False, bomb_site = True, round_number -- WHERE is_bomb_planted = TRUE AND round_number <= 30 -- 0
+csgodmg -- hitbox, hp_dmg -- WHERE round_number <= 30 -- 1
+csgodmg -- wp_type, hitbox -- WHERE round_number <= 30 -- 2
+csgogrenades -- round_number, nade -- WHERE round_number <= 30 -- 2
+csgogrenades -- nade, hp_dmg -- WHERE round_number <= 30 -- 1
+csgommmaster -- map_name, is_bomb_planted -- -- 2
+csgommmaster -- map_name, bomb_site -- WHERE is_bomb_planted = TRUE -- 1
+csgommmaster -- map_name, winner_side -- -- 2
+csgommmaster -- round_number, hp_dmg -- -- 3
+csgommmaster -- round_number, round_type -- -- 2
+csgommmaster -- round_number, ct_eq_val -- -- 3
+csgommmaster -- round_number, t_eq_val -- -- 3
+csgommmaster -- wp_type, hp_dmg -- -- 1
+csgommmaster -- wp, hp_dmg -- -- 1
+csgommmaster -- round_type, ct_eq_val -- -- 1
+csgommmaster -- round_type, t_eq_val -- -- 1
+csgommmaster -- ct_eq_val, t_eq_val -- -- 0
+csgometa -- winner_team, winner_side -- WHERE round_number <= 30 -- 2
+csgommgrenades -- map_name, nade -- -- 2
