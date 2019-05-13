@@ -1,0 +1,12 @@
+In,Out,Heading
+map_data.csv,map_data_clean.csv,0
+mm_master_demos.csv,mm_master_demos_clean.csv,0
+mm_grenades_demos.csv,mm_grenades_demos_clean.csv,0
+grenades_demos.part1.csv,grenades_demos.part1_clean.csv,1
+grenades_demos.part2.csv,grenades_demos.part2_clean.csv,1
+kills_demos.part1.csv,kills_demos.part1_clean.csv,1
+kills_demos.part2.csv,kills_demos.part2_clean.csv,1
+esea_meta_demos.part1.csv,esea_meta_demos.part1_clean.csv,0
+esea_meta_demos.part2.csv,esea_meta_demos.part2_clean.csv,0
+dmg_demos.part1.csv,dmg_demos.part1_clean.csv,1
+dmg_demos.part2.csv,dmg_demos.part2_clean.csv,1
